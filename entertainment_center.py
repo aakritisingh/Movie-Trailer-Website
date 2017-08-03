@@ -2,22 +2,22 @@ import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story", "A story of a boy and his toys that comes to life",
-	"https://en.wikipedia.org/wiki/File:Toy_Story.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+	"http://images.fanpop.com/images/image_uploads/Toy-Story-2-pixar-116966_1024_768.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
 legally_blonde = media.Movie("Legally Blonde", "Fashion merchandising student goes to Harvard Law School", 
-	"https://en.wikipedia.org/wiki/Legally_Blonde#/media/File:Legally_blonde.jpg", "https://www.youtube.com/watch?v=E8I-Qzmbqnc")
+	"https://upload.wikimedia.org/wikipedia/en/a/ac/Legally_blonde.jpg", "https://www.youtube.com/watch?v=E8I-Qzmbqnc")
 
 wonder_woman = media.Movie("Wonder Woman", "Diana Prince arrives to London leaving her home to fight God Zeus", 
-	"https://en.wikipedia.org/wiki/File:Wonder_Woman_(2017_film).jpg", "https://www.youtube.com/watch?v=VSB4wGIdDwo")
+	"http://cdn.collider.com/wp-content/uploads/2017/03/justice-league-wonder-woman-poster.jpg", "https://www.youtube.com/watch?v=VSB4wGIdDwo")
 
 baywatch = media.Movie("Baywatch", "Story about the lifeguards and how far they go to protect beach from dangerous crimes", 
-	"https://en.wikipedia.org/wiki/Baywatch_(film)#/media/File:Baywatch_poster.jpg", "https://www.youtube.com/watch?v=TDteZ0YrhSU")
+	"https://i.ytimg.com/vi/gUFgJ8f9slo/maxresdefault.jpg", "https://www.youtube.com/watch?v=TDteZ0YrhSU")
 
 baby_driver = media.Movie("Baby Driver", "Talented gateway driver tries to leave his shady life but couldn't get out due to other villains", 
-	"https://en.wikipedia.org/wiki/Baby_Driver#/media/File:Baby_Driver_poster.jpg", "https://www.youtube.com/watch?v=D9YZw_X5UzQ")
+	"https://upload.wikimedia.org/wikipedia/en/8/8e/Baby_Driver_poster.jpg", "https://www.youtube.com/watch?v=D9YZw_X5UzQ")
 
 dunkirk = media.Movie("Dunkirk", "Story revolves around May 1940 where French and German troops fight on the land of Dunkirk", 
-	"https://en.wikipedia.org/wiki/Dunkirk_(2017_film)#/media/File:Dunkirk_Film_poster.jpg", "https://www.youtube.com/watch?v=F-eMt3SrfFU")
+	"https://m0.joe.ie/wp-content/uploads/2017/07/07151915/Dunkirk-poster-2.jpg", "https://www.youtube.com/watch?v=F-eMt3SrfFU")
 
 
 #import fresh_tomaotoes from the repository which will help in calling the function open_movies_page 
@@ -26,5 +26,5 @@ dunkirk = media.Movie("Dunkirk", "Story revolves around May 1940 where French an
 
 movies_list = [toy_story, legally_blonde, wonder_woman, baywatch, baby_driver, dunkirk]
 
-fresh_tomaotoes.open_movies_page(movies_list)
+fresh_tomatoes.open_movies_page(movies_list)
 
